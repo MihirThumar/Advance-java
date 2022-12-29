@@ -11,9 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 import com.emp.dao.EmployeeDao;
 import com.emp.model.Employee;
 
-/**
- * Servlet implementation class RegisterServlet
- */
 //@WebServlet("/register")
 public class RegisterServlet extends HttpServlet {
 
