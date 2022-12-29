@@ -16,7 +16,6 @@ public class HelperClass {
 
 	public Object insert(Employee employee) {
 		int result = 0;
-
 		try {
 			Class.forName(className);
 			Connection connection = DriverManager.getConnection(uri, userName, password);
