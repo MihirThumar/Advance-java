@@ -14,7 +14,7 @@ public class HelperClass {
 	private String password = "root";
 	private String insertQuery = "INSERT INTO employee (first_name,last_name,user_name,password,address,contact_number) VALUES (?,?,?,?,?,?)";
 
-	public Object getConnection(Employee employee) {
+	public Object insert(Employee employee) {
 		int result = 0;
 
 		try {

@@ -8,7 +8,7 @@ public class EmployeeDao {
 	private HelperClass helperClass = new HelperClass();
 
 	public Object registerEmployee(Employee employee) throws ClassNotFoundException {
-		Object connection = helperClass.getConnection(employee);
+		Object connection = helperClass.insert(employee);
 		return connection;
 	}
 
