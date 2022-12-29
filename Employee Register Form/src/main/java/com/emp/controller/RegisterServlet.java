@@ -3,9 +3,7 @@ package com.emp.controller;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -42,9 +40,9 @@ public class RegisterServlet extends HttpServlet {
 		employee.setAddress(address);
 		employee.setContact(contact);
 
-		EmployeeDao dao = new EmployeeDao();
+		EmployeeDao employeeDao = new EmployeeDao();
 		try {
-			dao.registerEmployee(employee);
+			employeeDao.registerEmployee(employee);
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}

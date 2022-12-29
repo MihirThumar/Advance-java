@@ -12,5 +12,6 @@
 	<classpathentry kind="lib" path="F:/app/mysql-connector-j-8.0.31.jar"/>
 	<classpathentry kind="lib" path="F:/app/jstl-1.2.jar"/>
 	<classpathentry kind="lib" path="F:/app/jsp-api-2.2.jar"/>
+	<classpathentry kind="lib" path="F:/app/lombok.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
