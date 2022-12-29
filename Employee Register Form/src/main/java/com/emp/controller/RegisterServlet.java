@@ -54,7 +54,7 @@ public class RegisterServlet extends HttpServlet {
 			writer.println("<h1>" + firstName + lastName + " SuccesFully registerd</h1><br><br>");
 			writer.println("<h3><a href='/Employee_Register_Form'>Go back to registraion page</a></h3>");
 		} catch (Exception e) {
-			// TODO: handle exception
+			e.printStackTrace();
 		}
 	}
 

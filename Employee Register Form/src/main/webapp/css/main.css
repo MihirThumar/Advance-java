@@ -18,15 +18,13 @@ body{
     font-size: 1.2vw;
     font-weight: 900;
     color: black;
-    background: rgb(42, 111, 134);
+    background: rgb(96, 178, 206);
     padding: 0.5% 2%;
     margin-top: 2%;
     border-radius: 10%;
-    color: rgb(161, 144, 111);
 }
 .plus_btn:hover{
-    background: rgb(96, 178, 206);
-    color: black;
+    background: wheat;
 }
 .main{   
     display: none;
@@ -66,15 +64,15 @@ body{
 }
 .btn{
     display: flex;
-    background: rgb(50, 100, 2);
+    background: rgb(176, 233, 122);
     padding: 2%;
     margin-top: 5%;
     justify-content: center;
 }
 .btn:hover{
-    background: rgb(175, 238, 116);
-    padding: 2.1%;
-    transition: 0.5s;
+    background: rgb(114, 190, 190);
+    padding: 1.9%;
+    transition: 0.2s;
 }
 .submit_btn{
     font-size: 1vw;
